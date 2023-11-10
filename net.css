@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/8ec27a1d-02ce-4489-b320-a95106906f5d/IN-en-20221121-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    color: white; 
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 1500px 537px;
+    filter: grayscale(5%)   
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+nav .img img{
+    width: 50%;
+    margin-top: 18px;
+}
+
+nav .btn{
+    display: flex;
+    margin-top: 12px;
+}
+
+.btn .eng{
+    margin-inline: 22px;
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius:3px ;
+    margin-left: 33px;
+}
+
+.btn .eng:hover{
+    background-color: transparent;
+}
+
+.btn .sign:hover{
+    background-color: transparent;
+    border: 3px solid red;
+}
+
+.btn .sign{
+    width: 90px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 19px;
+    border-radius:5px ;
+    border: none;
+
+}
+.btn .eng{
+    margin-inline: 22px;
+}
+
+.main{
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.main h1{
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: 'mufta' , sans-serif;
+}
+
+.main h3{
+    font-size: 34px;
+    margin-top: 20px;
+}
+
+.main p{
+    font-size: 27px;
+    margin-top: 20px;
+}
+
+.input{
+    display:flex ;
+    justify-content: center;
+}
+
+.input input{
+    width:400px;
+    height: 58px;
+    border: none;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.input button{
+    width: 200px;
+    height: 58px;
+    background-color: rgb(251, 29, 29);
+    color: #ffffff;
+    font-size: 26px;
+    border: none;
+    margin-top: 15px;
+}
+
+.first{
+    display: flex;
+    justify-content: centre;
+    justify-content: space-around;
+    margin-top: 180px;
+    padding: 66px;
+    border-top: 4px solid rgb(92, 86, 86);
+}
+.first h1{
+    font-size: 55px;
+}
+
+.first p{
+    font-size: 20px;
+}
+
+.first img{
+    width: 44%;
+}
+
+.buttons h1{
+    text-align: center;
+    margin-top: 55px;
+    font-size: 45px;
+    border-top: 4px solid rgb(92, 86, 86);
+}
+.buttons button{
+    width: 600px;
+    height: 39px;
+    background-color: grey;
+    color: white;
+    font: px;
+    margin-left: 30%;
+    text-align: left;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border:4px solid rgb(92, 86, 86);
+}
